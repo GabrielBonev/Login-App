@@ -1,0 +1,24 @@
+{
+    "login": {
+      "message": "Login Success",
+      "title": "Welcome!",
+      "email": "Email",
+      "password": "Password",
+      "loginButton": "Login",
+      "forgotPassword": "Forgot Password?"
+    },
+    "forgotPassword": {
+      "forgot": "Forgot Password",
+      "submitButton": "Submit",
+      "successMessage": "A reset link has been sent to your email"
+    },
+    "error": {
+      "invalidCredentials": "Invalid email or password",
+      "invalidEmail": "Invalid email format",
+      "invalidPassword": "Invalid password"
+    },
+    "navigation": {
+      "home": "Home",
+      "language": "Language"
+    }
+  }

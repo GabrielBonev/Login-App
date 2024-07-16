@@ -1,0 +1,24 @@
+{
+  "login": {
+    "message": "Успешно влизане",
+    "title": "Добре дошли!",
+    "email": "Имейл",
+    "password": "Парола",
+    "loginButton": "Вход",
+    "forgotPassword": "Забравена парола?"
+  },
+  "forgotPassword": {
+    "forgot": "Забравена Парола",
+    "submitButton": "Изпрати",
+    "successMessage": "Линк за нулиране е изпратен на вашия имейл"
+  },
+  "error": {
+    "invalidCredentials": "Невалиден имейл или парола",
+    "invalidEmail": "Невалиден формат на имейл",
+    "invalidPassword": "Невалидна парола"
+  },
+  "navigation": {
+    "home": "Начало",
+    "language": "Език"
+  }
+}

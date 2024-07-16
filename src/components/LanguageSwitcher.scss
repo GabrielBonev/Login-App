@@ -1,0 +1,53 @@
+@import '../styles/variables';
+
+.language-switcher {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  
+  .language-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: $button-font-size;
+  }
+
+  .language-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: $dropdown-background;
+    border: 3px solid $dropdown-border-color;
+    border-radius: 4px;
+    box-shadow: $dropdown-box-shadow;
+    overflow: hidden;
+    height: auto;
+    width: auto;
+    min-width: fit-content;
+    white-space: nowrap;
+
+    button {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      padding: 5px;
+      margin: 10px;
+      border: none;
+      background: none;
+      cursor: pointer;
+      overflow: hidden;
+      white-space: nowrap;
+      color: black;
+
+      &:hover {
+        background-color: $hover-background-color;
+      }
+    }
+
+    .flag-icon {
+      width: $flag-icon-size;
+      height: $flag-icon-size;
+      margin-right: 10px;
+    }
+  }
+}
